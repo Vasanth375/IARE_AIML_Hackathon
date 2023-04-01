@@ -1,0 +1,515 @@
+#title {
+  background-color: #1e90ff;
+  color: #fff;
+}
+
+img {
+  pointer-events: none;
+  user-select: none;
+}
+
+.special {
+  font-family: 'Montserrat-Black', sans-serif;
+  ;
+  size: 5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+/* mainimage */
+/* downimages */
+.timg {
+  border-radius: 100%;
+  width: 5rem;
+  height: 5rem;
+  margin: 2rem;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+/* NAVBAR */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat"
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+  size: 99%
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* features */
+#features {
+  margin: 2rem;
+}
+
+.gl {
+  text-align: center;
+}
+
+/* icons */
+.sicons {
+  color: #1e90ff;
+}
+
+.sicons:hover {
+  color: #1ec8ff;
+}
+
+/* feat */
+.feat {
+  padding: 10% 5%;
+  text-align: center;
+}
+
+.ftl {
+  padding: 5% 2%;
+  text-align: center;
+}
+
+/* PARAGRAGH */
+.pr {
+  color: #A9A9A9;
+}
+
+/* h3 */
+h3 {
+  font-family: "Montserrat-Bold";
+  font-weight: normal;
+}
+
+/* testimonial */
+#testimonials {
+  text-align: center;
+  background-color: #1e90ff;
+  color: #fff;
+  padding-bottom: 7rem;
+}
+
+.carousel-item {
+  padding: 3% 15%;
+}
+
+/* testimonial para */
+.test-para {
+  font-family: Ubuntu;
+  font-size: 2rem;
+  line-height: 4rem;
+}
+
+/* pricing */
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+
+.pricing-h2 {
+  font-family: "Montserrat-black";
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.pricing-h4 {
+  font-size: 1.5rem;
+}
+
+.cdp {
+  padding: 3% 2%;
+}
+
+.headp {
+  font-family: "Ubuntu";
+  font-weight: 400;
+}
+
+/* press images */
+#press {
+  background-color: #1e90ff;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.press-image {
+  width: 14rem;
+  height: 7.5rem;
+  padding: 0 2rem;
+}
+
+/* cta last download */
+#cta {
+  padding: 5rem;
+  text-align: center;
+  background-color: #1e90ff;
+}
+
+/* down icons */
+#footer {
+  padding: 10rem;
+  align-items: center;
+  text-align: center;
+}
+
+.dsicon {
+  padding: 1.5%;
+  color: black;
+}
+
+.typing {
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat-Black', sans-serif;
+  ;
+  size: 5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.typing-effect {
+  width: 20ch;
+  animation: typing 2s steps(20), effect .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 2em;
+}
+
+/* butoon effect 1 */
+.glow-on-hover1 {
+  width: 9.6rem;
+  height: 2.5rem;
+  border: none;
+  outline: none;
+  color: white;
+  background: black;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  margin: 5% 3% 5% 0;
+}
+
+.glow-on-hover1:before {
+  content: '';
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+}
+
+.glow-on-hover1:hover {
+  background: transparent;
+}
+
+.glow-on-hover1:active {
+  color: black;
+}
+
+.glow-on-hover1:active:after {
+  background: transparent;
+}
+
+.glow-on-hover1:before {
+  opacity: 1;
+}
+
+.glow-on-hover1:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: black;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 400% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+
+/* butoon effect2 */
+.glow-on-hover2 {
+  width: 9.6rem;
+  height: 2.5rem;
+  border: none;
+  outline: none;
+  color: black;
+  background: #1e90ff;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  margin: 5% 3% 5% 0;
+}
+
+.glow-on-hover2:before {
+  content: '';
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+}
+
+.glow-on-hover2:active {
+  color: white;
+}
+
+.glow-on-hover2:active:after {
+  background: transparent;
+}
+
+.glow-on-hover2:before {
+  opacity: 1;
+}
+
+.glow-on-hover2:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: white;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 400% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+
+/* typing effect */
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+
+@keyframes effect {
+  50% {
+    border-color: transparent
+  }
+}
+
+/* downside buttons */
+.glow-on-hover3 {
+  width: 9.6rem;
+  height: 2.5rem;
+  border: none;
+  outline: none;
+  color: black;
+  background: black;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  margin: 2.5% 3% 5% 0;
+}
+
+.glow-on-hover3:before {
+  content: '';
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+}
+
+.glow-on-hover3:hover {
+  background: transparent;
+}
+
+.glow-on-hover3:active {
+  color: white;
+}
+
+.glow-on-hover3:active:after {
+  background: transparent;
+}
+
+.glow-on-hover3:before {
+  opacity: 1;
+}
+
+.glow-on-hover3:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: black;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+  background: transparent;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 400% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+
+/* butoon effect2 */
+.glow-on-hover4 {
+  width: 9.6rem;
+  height: 2.5rem;
+  border: none;
+  outline: none;
+  color: white;
+  background: black;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  margin: 2.5% 3% 5% 0;
+}
+
+.glow-on-hover4:before {
+  content: '';
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+}
+
+.glow-on-hover4:active {
+  color: black;
+}
+
+.glow-on-hover4:active:after {
+  background: transparent;
+}
+
+.glow-on-hover4:before {
+  opacity: 1;
+}
+
+.glow-on-hover4:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: white;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+  background: transparent;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 400% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+
+/* typing effect */
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+
+@keyframes effect {
+  50% {
+    border-color: transparent
+  }
+}
